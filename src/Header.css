@@ -1,0 +1,9 @@
+.header {
+  background: #131921;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
