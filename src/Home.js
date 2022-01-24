@@ -15,54 +15,54 @@ const Home = () => {
         <div className="home__row">
           <Product 
             id="123456"
-            title="The rise and fall of software development uvuwfbwcwywbeyufwyy eyuwuwe wy we wedcugedcguewcguewgu ewcguewgueguewagueguebvewc weguecguwaeguqeqebcguquqaguqe qeguqdcvqegu"
-            price={11.85}
-            rating={3}
-            image="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+            title="The lean startup"
+            price={11.96}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
           />
 
           <Product 
             id="123456"
-            title="The rise and fall of software development uvuwfbwcwywbeyufwyy eyuwuwe wy we wedcugedcguewcguewgu ewcguewgueguewagueguebvewc weguecguwaeguqeqebcguquqaguqe qeguqdcvqegu"
-            price={11.85}
+            title="Kenwood KMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            price={239.9}
             rating={3}
-            image="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
-          />
-        </div>
-
-        <div className="home__row">
-          <Product 
-            id="123456"
-            title="The rise and fall of software development uvuwfbwcwywbeyufwyy eyuwuwe wy we wedcugedcguewcguewgu ewcguewgueguewagueguebvewc weguecguwaeguqeqebcguquqaguqe qeguqdcvqegu"
-            price={11.85}
-            rating={3}
-            image="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
-          />
-
-          <Product 
-            id="123456"
-            title="The rise and fall of software development uvuwfbwcwywbeyufwyy eyuwuwe wy we wedcugedcguewcguewgu ewcguewgueguewagueguebvewc weguecguwaeguqeqebcguquqaguqe qeguqdcvqegu"
-            price={11.85}
-            rating={3}
-            image="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
-          />
-
-          <Product 
-            id="123456"
-            title="The rise and fall of software development uvuwfbwcwywbeyufwyy eyuwuwe wy we wedcugedcguewcguewgu ewcguewgueguewagueguebvewc weguecguwaeguqeqebcguquqaguqe qeguqdcvqegu"
-            price={11.85}
-            rating={3}
-            image="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+            image="https://i.ebayimg.com/images/g/ZXAAAOSw-19fB~El/s-l400.jpg"
           />
         </div>
 
         <div className="home__row">
           <Product 
             id="123456"
-            title="The rise and fall of software development uvuwfbwcwywbeyufwyy eyuwuwe wy we wedcugedcguewcguewgu ewcguewgueguewagueguebvewc weguecguwaeguqeqebcguquqaguqe qeguqdcvqegu"
-            price={11.85}
+            title="Samsung LC48849090663085 49' Curved LED Gaming Monitor"
+            price={199.99}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+          />
+
+          <Product 
+            id="123456"
+            title="Amazon ECHO (3rd generation) SMart Speaker with Alexa, Charcoal Fabric"
+            price={98.99}
+            rating={5}
+            image="https://images.yaoota.com/GcS37teD0QypzfDlqhDXG0vY160=/trim/yaootaweb-production-ng/media/crawledproductimages/319bf551e139187686a8736e0ac46fc79e935fe0.jpg"
+          />
+
+          <Product 
+            id="123456"
+            title="New Apple iPad Pro (12.9-inch, wifi, 128GB) - SIlver (4th Generation)"
+            price={589.99}
             rating={3}
-            image="https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+            image="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/166397/1.jpg?9386"
+          />
+        </div>
+
+        <div className="home__row">
+          <Product 
+            id="123456"
+            title="Samsung LC49305868948942602 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5128 x 1448"
+            price={104.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
       </div>
