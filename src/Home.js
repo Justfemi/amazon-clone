@@ -14,7 +14,7 @@ const Home = () => {
         />
         <div className="home__row">
           <Product 
-            id="123456"
+            id="1234"
             title="The lean startup"
             price={11.96}
             rating={5}
@@ -22,7 +22,7 @@ const Home = () => {
           />
 
           <Product 
-            id="123456"
+            id="4529"
             title="Kenwood KMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
             price={239.9}
             rating={3}
@@ -32,7 +32,7 @@ const Home = () => {
 
         <div className="home__row">
           <Product 
-            id="123456"
+            id="2907"
             title="Samsung LC48849090663085 49' Curved LED Gaming Monitor"
             price={199.99}
             rating={4}
@@ -40,7 +40,7 @@ const Home = () => {
           />
 
           <Product 
-            id="123456"
+            id="5781"
             title="Amazon ECHO (3rd generation) SMart Speaker with Alexa, Charcoal Fabric"
             price={98.99}
             rating={5}
@@ -48,7 +48,7 @@ const Home = () => {
           />
 
           <Product 
-            id="123456"
+            id="9120"
             title="New Apple iPad Pro (12.9-inch, wifi, 128GB) - SIlver (4th Generation)"
             price={589.99}
             rating={3}
@@ -58,7 +58,7 @@ const Home = () => {
 
         <div className="home__row">
           <Product 
-            id="123456"
+            id="7567"
             title="Samsung LC49305868948942602 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5128 x 1448"
             price={104.98}
             rating={4}
