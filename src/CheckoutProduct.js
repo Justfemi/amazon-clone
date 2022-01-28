@@ -13,10 +13,6 @@ const CheckoutProduct = ({id, title, price, image, rating}) => {
     });
   };
 
-  const clickTest = () => {
-    console.log('button-clicked');
-  }
-
   return (
     <div className="checkoutProduct">
       <img 
@@ -38,7 +34,6 @@ const CheckoutProduct = ({id, title, price, image, rating}) => {
         </div>
 
         <button onClick={removeFromBasket}>Remove from basket</button>
-        <button onClick={clickTest} className='testBtn'>Test button</button>
       </div>
     </div>
   );
