@@ -1,10 +1,16 @@
 import React from 'react';
+import './Login.css';
+import Header from './Header';
+import './Login.css';
 
 const Login = () => {
   return(
-    <div>
-      <h1>Login page</h1>
-    </div>
+    <>
+      <Header />
+      <div className='login'>
+        <h1>LOGIN Page</h1>
+      </div>
+    </>
   );
 }
 
