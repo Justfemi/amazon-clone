@@ -27,7 +27,7 @@
 
 .header__nav {
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
 }
 
 .header__option {
@@ -49,15 +49,17 @@
 .header__link {
   color: #fff;
   text-decoration: none;
+  margin: 10px 0;
 }
 
 .header__search {
   display: flex;
   flex: 1;
+  height: 27px;
 }
 
 .header__searchInput {
-  height: 12px;
+  height: 100%;
   padding: 10px;
   border: none;
   width: 100%;
@@ -67,7 +69,8 @@
 .header__searchIcon {
   background-color: #cd9042;
   padding: 5px;
-  height: 21px !important;
+  height: 27px !important;
+  cursor: pointer;
 }
 
 
