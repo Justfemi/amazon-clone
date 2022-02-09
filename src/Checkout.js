@@ -7,7 +7,7 @@ import Subtotal from './Subtotal';
 
 const Checkout = () => {
 
-  const [{basket}] = useStateValue();
+  const [{basket}, dispatch] = useStateValue();
 
   return (
     <>

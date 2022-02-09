@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
 import './Login.css';
 import { Link, useNavigate } from 'react-router-dom';
-import { signUp, login } from './firebase';
+import { signUp, login, auth } from './firebase';
 
 const Login = () => {
   const navigate = useNavigate();
-
-  
 
   const [loading, setLoading] = useState(false);
 
@@ -18,8 +16,11 @@ const Login = () => {
     setLoading(true);
     try {
       await login(email, password);
-    } catch {
-      alert("Error");
+      if (auth) {
+        navigate.push('/')
+      }
+    } catch(error) {
+      alert(error.message);
     }
     setLoading(false);
   }
@@ -29,8 +30,11 @@ const Login = () => {
     setLoading(true);
     try {
       await signUp(email, password);
-    } catch {
-      alert("User already exist");
+      if (auth) {
+        navigate.push('/')
+      }
+    } catch(error) {
+      alert(error.message);
     }
     setLoading(false);
   }

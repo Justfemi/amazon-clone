@@ -1,27 +1,12 @@
 export const initialState = {
-  basket: [
-    {
-      id:"1236",
-      title:"Samsung LC49305868948942602 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5128 x 1448",
-      price:104.98,
-      rating:4,
-      image:"https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-    },
-    {
-      id:"1266",
-      title:"Samsung LC49305868948942602 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5128 x 1448",
-      price:104.98,
-      rating:4,
-      image:"https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-    },
-  ],
+  basket: [  ],
   user: null,
 };
 
 export const getBasketTotal = (basket) => 
 basket?.reduce((amount, item) => item.price + amount, 0);
 
-const reducer = (state, action) => {
+const reducer = (state, action) => { 
   console.log(action);
   switch(action.type) {
     case 'ADD_TO_BASKET':
@@ -43,6 +28,13 @@ const reducer = (state, action) => {
       }
 
       return { ...state, basket: newBasket, };
+
+    case 'SET_USER':
+      return {
+        ...state,
+        user: action.user
+      }
+      
     default:
       return state;
   }
