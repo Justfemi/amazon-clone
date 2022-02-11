@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Login.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import { signUp, login, auth } from './firebase';
 
 const Login = () => {
@@ -17,7 +17,7 @@ const Login = () => {
     try {
       await login(email, password);
       if (auth) {
-        navigate.push('/')
+        navigate('/')
       }
     } catch(error) {
       alert(error.message);
@@ -31,7 +31,7 @@ const Login = () => {
     try {
       await signUp(email, password);
       if (auth) {
-        navigate.push('/')
+        navigate('/')
       }
     } catch(error) {
       alert(error.message);

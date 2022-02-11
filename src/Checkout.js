@@ -20,7 +20,7 @@ const Checkout = () => {
           />
           {basket?.length === 0 ? (
             <div>
-              <h3>Hello {user?.email}</h3>
+              <h3>Hello {user ? user?.email : 'Guest'}</h3>
               <h2>Your Shopping Basket is empty</h2>
               <p>
                 You have no items in your basket. To buy one or more items, 

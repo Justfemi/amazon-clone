@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Home';
 import Login from './Login';
 import Checkout from './Checkout';
+import Payment from './Payment';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import { auth } from './firebase';
@@ -12,8 +13,7 @@ function App() {
 
   useEffect(() => {
     auth.onAuthStateChanged(authUser => {
-      console.log('The user is ', authUser);
-
+      // console.log('The user is ', authUser);
       if(authUser) {
         dispatch({
           type: 'SET_USER',
@@ -35,6 +35,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/payment" element={<Payment />} />
         </Routes>
       </div>
     </Router>
