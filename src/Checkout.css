@@ -21,7 +21,7 @@
 .checkoutProduct {
   display: flex;
   align-items: center;
-  border-bottom: .5px solid lightgray;
+  /* border-bottom: .5px solid lightgray; */
 }
 
 .checkoutProduct__image {

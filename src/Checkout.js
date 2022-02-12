@@ -18,9 +18,9 @@ const Checkout = () => {
             src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
             alt="ad-cover"
           />
+          <h3>Hello {user ? user?.email : 'Guest'}</h3>
           {basket?.length === 0 ? (
             <div>
-              <h3>Hello {user ? user?.email : 'Guest'}</h3>
               <h2>Your Shopping Basket is empty</h2>
               <p>
                 You have no items in your basket. To buy one or more items, 
